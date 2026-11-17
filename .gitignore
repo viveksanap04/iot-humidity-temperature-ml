@@ -1,0 +1,46 @@
+
+# python files
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# virtual environment
+venv/
+.venv/
+
+# environment files
+.env
+
+# phase 1 dataset and models
+Phase_1/dataset/
+Phase_1/models/
+
+# phase 2 dataset and models
+Phase_2/dataset/
+Phase_2/models/
+
+# phase 3 dataset and models
+Phase_3/dataset/
+Phase_3/models/
+
+# final model files
+Final_Model_Evaluation/models/
+
+# model files
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# temporary files
+*.log
+*.tmp
+
+# vscode files
+.vscode/
+
+# system files
+.DS_Store
+Thumbs.db
