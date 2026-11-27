@@ -4,10 +4,11 @@ import pandas as pd
 from pathlib import Path
 
 # File paths
-folder = Path("Phase_1")
+folder_json = Path("datasets/phase_1_1day/raw")
+folder_csv = Path("datasets/phase_1_1day/processed")
 
-json_path = folder / "1day_dataFirebase.json"
-csv_path = folder / "DHT22_Dataset.csv"
+json_path = folder_json/ "1day_dataFirebase.json"
+csv_path = folder_csv / "DHT22_Dataset.csv"
 
 # Read JSON file
 with open(json_path, "r", encoding="utf-8") as file:
