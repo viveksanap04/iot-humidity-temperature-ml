@@ -26,5 +26,12 @@ The collected data is stored in Firebase and used for Machine Learning and Deep 
 ## Project Status
 Under Development.
 
+## Progress :-
+
+1-downloded json file from firebase 
+2-craeted code to convert json to csv in python 
+3-extracted to csv from json 
+
+
 ## Author
 Vivek Sanap
